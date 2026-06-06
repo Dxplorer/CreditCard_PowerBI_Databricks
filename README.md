@@ -1,16 +1,26 @@
-# CreditCard_PowerBI_Databricks
+CreditCard_PowerBI_Databricks
 
 Overview
 Credit card analytics dashboard built using transaction and cardholder data, providing insights into spending patterns, card usage, bank-wise performance, credit limits, and transaction trends. Interactive KPIs and visualizations enable analysis by card type, issuer, transaction date, and customer behavior for better decision-making.
----
+
 Data Source
-PropertyDetailsPlatformPower BIBackend / Data WarehouseDatabricksScopeMulti-bank, multi-country credit card portfolioTime Range2007 – 2017 (approx.)
+
+Platform - Power BI
+Backend / Data Warehouse - Databricks
+Scope -  Multi-bank, multi-country credit card portfolio
+Time Range - 2007 – 2017 (approx.)
 
 Dashboard Pages
 Page 1 — Overview
 High-level KPIs and distribution charts for the entire portfolio.
 Key Metrics
-MetricValueActive Cards318KInactive Cards182KSum of Transaction Amount125 bnAverage Credit Limit105.00KTotal Banks16Total Card Types6
+MetricValueActive Cards 318K
+Inactive Cards 182K
+Sum of Transaction Amount 125 bn
+Average Credit Limit 105.00K
+Total Banks 16
+Total Card Types 6
+
 Visuals
 
 Count of Credit Limit by Issuing Bank — Bar chart ranking all 16 banks. Diners Club, Discover, and JCB lead in credit limit count, while First National and PNC are at the lower end.
